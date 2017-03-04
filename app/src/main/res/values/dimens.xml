@@ -1,0 +1,27 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal">40dp</dimen>
+    <dimen name="activity_vertical">30dp</dimen>
+
+    <!-- 自定义字体大小 -->
+    <dimen name="toolbar_text_size">20sp</dimen>
+    <dimen name="small_text_size">14sp</dimen>
+    <dimen name="tiny_text_size">10sp</dimen>
+
+    <!-- 自定义文本行距 -->
+    <dimen name="spacing_extra">10dp</dimen>
+
+    <!-- Toolbar组件周围距离 -->
+    <dimen name="toolbar_padding">30dp</dimen>
+    <dimen name="toolbar_paddingStart">30dp</dimen>
+    <dimen name="toolbar_paddingEnd">10dp</dimen>
+    <dimen name="toolbar_paddingBottom">20dp</dimen>
+    <dimen name="toolbar_paddingTop">10dp</dimen>
+
+    <!-- 组件周围距离 -->
+    <dimen name="subgroup_padding">30dp</dimen>
+    <dimen name="subgroup_padding_small">20dp</dimen>
+    <dimen name="subgroup_start">30dp</dimen>
+    <dimen name="subgroup_end">20dp</dimen>
+    <dimen name="subgroup_top">40dp</dimen>
+</resources>

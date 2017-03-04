@@ -1,0 +1,41 @@
+<resources>
+    <!-- 组件名称 -->
+    <string name="app_name">Hosts\u0020更新</string>
+    <string name="toolbar_title">一键改变上网方式</string>
+    <string name="local_version_text">本地版本:</string>
+    <string name="net_version_text">网络版本:</string>
+    <string name="about">
+        项目地址：\n
+        https://github.com/Joshua-Zheng/Hosts\n
+        Designed By Zheng
+    </string>
+    <string name="update_button">一键更新\u0020hosts</string>
+    <string name="restore">恢复默认hosts</string>
+
+    <!-- 文本显示 -->
+    <string name="can_not_read">无法读取</string>
+    <string name="no_root">设备没有获取root权限,不能修改hosts文件</string>
+
+    <!-- Toast显示信息 -->
+    <string name="root_fail_tip">获取root权限失败</string>
+    <string name="network_error_tip">网络错误,请确认连接网络</string>
+    <string name="server_error_tip">服务器连接失败,请联系管理员</string>
+
+    <!-- 对话框显示信息 -->
+    <string name="get_last_host">安装完成</string>
+    <string name="get_last_host_tip">
+        已获取最新hosts\n
+        现在您可以退出程序\n\n
+        浏览器请使用https协议，如:\n
+        https://www.google.com.hk\n\n
+        点击右侧黄色按钮可直接访问
+    </string>
+    <string name="restore_host">初始化完成</string>
+    <string name="restore_host_tip">
+        \n已初始化为默认hosts\n
+        将无法继续访问Google等国外网站
+    </string>
+    <string name="ok_label">确认</string>
+    <string name="loading">Loading\u2026</string>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff1e79b7</color>
+    <color name="colorPrimaryDark">#ff1e79b7</color>
+    <color name="colorAccent">#ff2628</color>
+
+    <!-- 自定义字体颜色 -->
+    <color name="text_color">#ffffff</color>
+
+    <!-- 一键更新按钮颜色 -->
+    <color name="update_button">#ff1e79b7</color>
+    <color name="new_update_button">#e9bb26</color>
+</resources>

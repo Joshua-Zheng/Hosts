@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zheng.hosts.HostsGUI">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/toolbar_padding"
+        android:background="@color/colorPrimary"
+        android:text="@string/toolbar_title"
+        android:textSize="@dimen/toolbar_text_size"
+        android:textColor="@color/text_color"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:paddingStart="@dimen/toolbar_paddingStart"
+            android:paddingEnd="@dimen/toolbar_paddingEnd"
+            android:paddingTop="@dimen/toolbar_paddingTop"
+            android:text="@string/local_version_text"
+            android:textColor="@color/text_color"/>
+
+        <TextView
+            android:id="@+id/local_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:paddingTop="@dimen/toolbar_paddingTop"
+            android:textColor="@color/text_color"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:paddingStart="@dimen/toolbar_paddingStart"
+            android:paddingEnd="@dimen/toolbar_paddingEnd"
+            android:paddingTop="@dimen/toolbar_paddingTop"
+            android:paddingBottom="@dimen/toolbar_paddingBottom"
+            android:text="@string/net_version_text"
+            android:textColor="@color/text_color"/>
+
+        <TextView
+            android:id="@+id/net_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:paddingTop="@dimen/toolbar_paddingTop"
+            android:paddingBottom="@dimen/toolbar_paddingBottom"
+            android:textColor="@color/text_color"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/subgroup_top"
+            android:layout_marginStart="@dimen/subgroup_start"
+            android:layout_marginEnd="@dimen/subgroup_end"
+            android:lineSpacingExtra="@dimen/spacing_extra"
+            android:textSize="@dimen/small_text_size"
+            android:text="@string/about"/>
+
+        <Button
+            android:id="@+id/google_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/new_go_button"
+            style="?android:attr/borderlessButtonStyle"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginStart="@dimen/activity_horizontal"
+        android:layout_marginEnd="@dimen/activity_horizontal"
+        android:orientation="vertical"
+        android:gravity="bottom|center_horizontal">
+
+        <TextView
+            android:id="@+id/tipsView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/subgroup_padding_small"/>
+
+        <Button
+            android:id="@+id/update_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/update_button"
+            android:textColor="@color/text_color"
+            android:text="@string/update_button"/>
+
+        <TextView
+            android:id="@+id/recovery_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/subgroup_padding_small"
+            android:text="@string/restore"
+            android:textSize="@dimen/tiny_text_size"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>
